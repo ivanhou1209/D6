@@ -1,0 +1,118 @@
+body{
+   /* Set line spacing */
+   line-height: 2;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    padding: 50px 10px 50px 10px;
+    margin: 10px 5px 10px 5px;
+
+}
+nav ul li{
+   font-size: 150%;
+   display: inline;
+   padding: 0 20px 0 0;
+   background-color: silver;
+}
+
+nav a{
+    /* Set text decoration*/
+    color: blue;
+}
+
+a:visited{
+    /* Set color */
+    color: black;
+}
+
+nav a.current{
+    text-decoration: underline wavy;
+    text-transform: uppercase;
+    text-underline-offset: 5px;
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   /*Set font and font size*/
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{    
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    row-gap: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: stretch;
+
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+   display: grid;
+   align-content: space-evenly;
+   border: 2px solid black;
+   border-radius: 20px;
+   padding: 10px;
+   background-color: green;
+   justify-content: center;
+   justify-items: stretch;
+   gap: 20px; /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 5px 0px rgba(0, 0, 0, 1);
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -5px 0px rgba(0, 0, 0, 1);
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 1), 0px 5px rgba(0, 0, 0, 1);
+    /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
